@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 # local imports
 from support_resistance_indicator import SupportResistanceIndicator
 
-# this is an example of how to run the python software for a given dataframe
 
 # 1) Dataframe:
 # first you need a dataframe, we have one set as example in this repository but any dataframe
