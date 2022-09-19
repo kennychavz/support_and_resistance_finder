@@ -31,33 +31,18 @@ support_resistance_levels = support_resistance.main()
 print(f' the support levels are {support_resistance_levels}')
 print(df)
 
+
+# ~~~~~~~~~~~~~ Plot Part ~~~~~~~~~~~~ 
+# you can choose to comment this part out if you dont need to visualize the data, otherwise
+# this allows you to see the support and resistance levels on a chart
+
 # we plot the close prices of the dataframe
 plt.plot(df.index, df['close'])
 
-print('hellloooooo')
-# we add the horizontal levels to the plot
+# we add the support and resistance levels to the plot by looping through each of them
 for value in support_resistance_levels:
     print(value)
     plt.axhline(y=value, color='r', linestyle='-')
 
+# we show the plot
 plt.show()
-
-# fig = go.Figure(data=[go.Candlestick(x=df['date'],
-#                         open=df['open'],
-#                         high=df['high'],
-#                         low=df['low'],
-#                         close=df['close'])])
-
-# for value in support_resistance_levels:
-#     print(value)
-#     fig.update_layout(
-#         shapes = [dict(
-#                 x0 = df['date'][0],
-#                 x1 = df['date'][561],
-#                 y0= value,
-#                 y1 = value,
-#                 line_width=2)],
-#     )
-
-
-# #fig.show()
