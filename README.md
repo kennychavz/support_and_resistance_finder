@@ -13,24 +13,6 @@ This repository automatically finds support and resistance levels given a datafr
 -->
 
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -87,7 +69,9 @@ This repository automatically finds support and resistance levels given a datafr
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+#[![Product Name Screen Shot][product-screenshot]](https://example.com)
+#![alt text](http://url/to/img.png)
+![alt text](https://github.com/[kennychavz]/[support_resistance_finder]/blob/[master]/picture_examples/support_resistance_example.png?raw=true)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `kennychavz`, `support_and_resistance_finder`, `twitter_handle`, `kennychavezmtl`, `gmail`, `kennychavez.mtl`, `Support And Resistance Finder`, `project_description`
 This project was made in goal to serve as a foundation to automating traditional technical analysis trading. Support and resistance levels, or supply and demand levels is the key foundation when it comes to trading. The idea behind this project was wheter we could automate a task that institutions have been doing manually for the last century.
