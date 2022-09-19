@@ -1,5 +1,5 @@
 # support_and_resistance_finder
-This repository can automatically find support and resistance levels when given a dataframe
+This repository automatically finds support and resistance levels given a dataframe 
 
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
@@ -38,7 +38,7 @@ This repository can automatically find support and resistance levels when given 
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Support And Resistance Finder</h3>
 
   <p align="center">
     project_description
@@ -89,7 +89,9 @@ This repository can automatically find support and resistance levels when given 
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `kennychavz`, `support_and_resistance_finder`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `kennychavz`, `support_and_resistance_finder`, `twitter_handle`, `kennychavezmtl`, `gmail`, `kennychavez.mtl`, `Support And Resistance Finder`, `project_description`
+This project was made in goal to serve as a foundation to automating traditional technical analysis trading. Support and resistance levels, or supply and demand levels is the key foundation when it comes to trading. The idea behind this project was wheter we could automate a task that institutions have been doing manually for the last century.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,14 +99,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Python][Python-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,9 +131,13 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    pip install -r requirements.txt
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Pass a dataframe to the main function inside of app.py
+   ```py
+   df = pandas.dataframe_of_your_choice
+   ```
+5. Run the program
+   ```py
+   python app.py
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,6 +148,8 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+To use the support and resistance finder, simply call the function with a dataframe containing the close, low and high prices of a commodity, make sure that the dataframe is a pandas dataframe so that the algorithm and plotting functions work accordingly
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -199,7 +201,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - kennychavez.mtl@gmail.com
 
 Project Link: [https://github.com/kennychavz/support_and_resistance_finder](https://github.com/kennychavz/support_and_resistance_finder)
 
@@ -231,21 +233,6 @@ Project Link: [https://github.com/kennychavz/support_and_resistance_finder](http
 [license-shield]: https://img.shields.io/github/license/kennychavz/support_and_resistance_finder.svg?style=for-the-badge
 [license-url]: https://github.com/kennychavz/support_and_resistance_finder/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/kennychavezmtl
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[Python-url]: https://www.python.org
