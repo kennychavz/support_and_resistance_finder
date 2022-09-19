@@ -69,9 +69,7 @@ This repository automatically finds support and resistance levels given a datafr
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-#[![Product Name Screen Shot][product-screenshot]](https://example.com)
-#![alt text](http://url/to/img.png)
-![alt text](https://github.com/[kennychavz]/[support_resistance_finder]/blob/[master]/picture_examples/support_resistance_example.png?raw=true)
+![](picture_examples/support_resistance_example.png)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `kennychavz`, `support_and_resistance_finder`, `twitter_handle`, `kennychavezmtl`, `gmail`, `kennychavez.mtl`, `Support And Resistance Finder`, `project_description`
 This project was made in goal to serve as a foundation to automating traditional technical analysis trading. Support and resistance levels, or supply and demand levels is the key foundation when it comes to trading. The idea behind this project was wheter we could automate a task that institutions have been doing manually for the last century.
