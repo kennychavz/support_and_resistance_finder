@@ -82,15 +82,19 @@ This project was made to serve as a foundation to the automation of traditional 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Make sure to install these requirements before starting your project
+* python 3.10
   ```sh
-  npm install npm@latest -g
+  sudo apt install python3.10 python-pip
+  ```
+* pip
+  ```sh
+  curl https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py
+  sudo python3.8 /tmp/get-pip.py
   ```
 
 ### Installation
@@ -102,7 +106,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 3. Install requirements
    ```sh
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 4. Pass a dataframe to the main function inside of app.py
    ```py
