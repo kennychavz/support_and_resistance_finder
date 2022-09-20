@@ -53,17 +53,16 @@ This repository automatically finds support and resistance levels given a datafr
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+### About The Project
 
-![](picture_examples/support_resistance_example.png)
+![](images/support_resistance_example.png)
 
-This project was made to serve as a foundation to the automation of traditional technical analysis trading. Support and resistance levels, or supply and demand levels are the key foundation when it comes to trading. The idea behind this project was wheter we could automate a task that institutions have been doing manually for the last century.
+This project was made to serve as a foundation to the automation of traditional technical analysis trading. Support and resistance levels, also called supply and demand levels are the key foundation when it comes to trading as they structure the way financial markets move. The idea behind this project was wheter we could automate a task that institutions have been doing manually for the last century.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,8 +85,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Make sure to install these requirements before starting your project
-* python 3.10
+This is an example of how to list things you need to use the software and how to install them.
+* npm
   ```sh
   sudo apt install python3.10 python-pip
   ```
@@ -126,9 +125,13 @@ Make sure to install these requirements before starting your project
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-To use the support and resistance finder, simply call the function with a dataframe containing the close, low and high prices of a commodity, make sure that the dataframe is a pandas dataframe so that the algorithm and plotting functions work accordingly
+To use the support and resistance finder, make sure to pass the software a dataframe containing the dates aswell as the high, low and close prices. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+You can use this with any instrument in any sector (Stocks, Forex, Crypto, etc)
+
+To get a further understanding of support and resistance levels make sure to visit these links:
+[investopedia](https://www.investopedia.com/trading/support-and-resistance-basics/)
+[babypips](https://www.babypips.com/learn/forex/support-and-resistance)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,10 +140,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Extending the support and resistance finder to find levels with any sized dataframe
 
 See the [open issues](https://github.com/kennychavz/support_and_resistance_finder/issues) for a full list of proposed features (and known issues).
 
@@ -178,23 +178,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - kennychavez.mtl@gmail.com
+Kenny Chavez - kennychavez.mtl@gmail.com
 
-Project Link: [https://github.com/kennychavz/support_and_resistance_finder](https://github.com/kennychavz/support_and_resistance_finder)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+support_and_resistance_finder: [https://github.com/kennychavz/support_and_resistance_finder](https://github.com/kennychavz/support_and_resistance_finder)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
