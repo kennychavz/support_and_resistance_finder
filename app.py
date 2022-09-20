@@ -21,6 +21,11 @@ support_resistance = SupportResistanceIndicator(df = df)
 # we call the main function which will return the support and resistance horizontal levels
 support_resistance_levels = support_resistance.main()
 
+# displaying the support and resistance levels
+print(f'The support and resistance levels are')
+for level in support_resistance_levels:
+    print(level)
+
 
 # 3) Ploting:
 # you can choose to comment this part out if you dont need to visualize the data, otherwise
