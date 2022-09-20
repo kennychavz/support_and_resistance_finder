@@ -1,6 +1,4 @@
 # support_and_resistance_finder
-This repository automatically finds support and resistance levels given a dataframe 
-
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
@@ -16,7 +14,7 @@ This repository automatically finds support and resistance levels given a datafr
 <h3 align="center">Support And Resistance Finder</h3>
 
   <p align="center">
-    project_description
+    This software automatically finds support and resistance levels when given a candlestick dataframe
     <br />
     <a href="https://github.com/kennychavz/support_and_resistance_finder"><strong>Explore the docs »</strong></a>
     <br />
@@ -38,7 +36,6 @@ This repository automatically finds support and resistance levels given a datafr
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
@@ -66,16 +63,6 @@ This project was made to serve as a foundation to the automation of traditional 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [![Python][Python-url]
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -129,9 +116,7 @@ To use the support and resistance finder, make sure to pass the software a dataf
 
 You can use this with any instrument in any sector (Stocks, Forex, Crypto, etc)
 
-To get a further understanding of support and resistance levels make sure to visit these links:
-[investopedia](https://www.investopedia.com/trading/support-and-resistance-basics/)
-[babypips](https://www.babypips.com/learn/forex/support-and-resistance)
+To get a further understanding of support and resistance levels make sure to visit [investopedia](https://www.investopedia.com/trading/support-and-resistance-basics/) and [babypips](https://www.babypips.com/learn/forex/support-and-resistance).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +125,8 @@ To get a further understanding of support and resistance levels make sure to vis
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Extending the support and resistance finder to find levels with any sized dataframe
+- [ ] Feature 1: Extending the support and resistance finder to find levels with any sized dataframe instead of a 500-1500 point dataframe
+- [ ] Feature 2: 
 
 See the [open issues](https://github.com/kennychavz/support_and_resistance_finder/issues) for a full list of proposed features (and known issues).
 
