@@ -73,7 +73,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* python 3.10
   ```sh
   sudo apt install python3.10 python-pip
   ```
@@ -91,9 +91,9 @@ This is an example of how to list things you need to use the software and how to
    ```
 2. Install requirements
    ```sh
-   pip3 install -r requirements.txt
+   pip install -r requirements.txt
    ```
-3. Pass a dataframe to the main function inside of app.py
+3. Pass a candlestick dataframe to line 12 inside of app.py
    ```py
    df = pandas.dataframe_of_your_choice
    ```
