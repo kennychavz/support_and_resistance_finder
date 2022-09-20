@@ -14,7 +14,7 @@
 <h3 align="center">Support And Resistance Finder</h3>
 
   <p align="center">
-    This software automatically finds support and resistance levels when given a candlestick dataframe
+    This software automatically finds support and resistance levels when given a candlestick dataframe.
     <br />
     <a href="https://github.com/kennychavz/support_and_resistance_finder"><strong>Explore the docs »</strong></a>
     <br />
@@ -85,20 +85,19 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/kennychavz/support_and_resistance_finder.git
    ```
-3. Install requirements
+2. Install requirements
    ```sh
    pip3 install -r requirements.txt
    ```
-4. Pass a dataframe to the main function inside of app.py
+3. Pass a dataframe to the main function inside of app.py
    ```py
    df = pandas.dataframe_of_your_choice
    ```
-5. Run the program
+4. Run the program
    ```py
    python app.py
    ```
