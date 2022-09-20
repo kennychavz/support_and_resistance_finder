@@ -4,13 +4,6 @@ This repository automatically finds support and resistance levels given a datafr
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 
 <!-- PROJECT LOGO -->
@@ -65,14 +58,12 @@ This repository automatically finds support and resistance levels given a datafr
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 ![](picture_examples/support_resistance_example.png)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `kennychavz`, `support_and_resistance_finder`, `twitter_handle`, `kennychavezmtl`, `gmail`, `kennychavez.mtl`, `Support And Resistance Finder`, `project_description`
-This project was made in goal to serve as a foundation to automating traditional technical analysis trading. Support and resistance levels, or supply and demand levels is the key foundation when it comes to trading. The idea behind this project was wheter we could automate a task that institutions have been doing manually for the last century.
+This project was made to serve as a foundation to the automation of traditional technical analysis trading. Support and resistance levels, or supply and demand levels are the key foundation when it comes to trading. The idea behind this project was wheter we could automate a task that institutions have been doing manually for the last century.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
