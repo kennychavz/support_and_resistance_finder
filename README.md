@@ -93,13 +93,11 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    pip install -r requirements.txt
    ```
-3. Pass a candlestick dataframe to line 12 inside of app.py
+3. Run the program app.py by passing it your dataframe on the terminal (make sure
+   that this dataframe is inside of the repository) Also make sure it is a candlestick
+   dataframe containing the dates as well as the low, high and close prices
    ```py
-   df = pandas.dataframe_of_your_choice
-   ```
-4. Run the program
-   ```py
-   python app.py
+   python app.py your_dataframe.csv
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
