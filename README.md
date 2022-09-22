@@ -80,7 +80,7 @@ This is an example of how to list things you need to use the software and how to
 * pip
   ```sh
   curl https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py
-  sudo python3.8 /tmp/get-pip.py
+  sudo python3.10 /tmp/get-pip.py
   ```
 
 ### Installation
