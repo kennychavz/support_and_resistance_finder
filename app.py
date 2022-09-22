@@ -1,15 +1,26 @@
+# now we can pass the other argument to the method
 # package imports
 import pandas as pd
 import matplotlib.pyplot as plt
+import sys
+import os
 
 # local imports
 from support_resistance_indicator import SupportResistanceIndicator
+ 
+
+# In this part we retrieve the filename of the dataframe from the terminal input
+message = sys.argv
+
+# we need to remove the filename argument from the function that is being called
+filename = os.path.basename(__file__)
+message.remove(filename)
 
 
 # 1) Dataframe:
-# first you need a dataframe, we have one set as example in this repository but any dataframe
-# works as long as you have between 500-1500 points in the dataframe, this dataframe is loaded up using pickle
-df = pd.read_pickle('dataframe_example.pickle')
+# we can now pass the dataframe as input for the next methods, we start by retrieving the dataframe using pandas
+df = pd.read_pickle(message[0])
+# 'dataframe_example.pickle'
 
 
 # 2) Program Execution:
@@ -32,7 +43,7 @@ for level in support_resistance_levels:
 # this allows you to see the support and resistance levels on a chart
 
 # we plot the close prices of the dataframe
-plt.plot(df.index, df['close'])
+plt.plot(df['date'], df['close'])
 
 # we add the support and resistance levels to the plot by looping through each of them
 for value in support_resistance_levels:
