@@ -1,6 +1,7 @@
 # now we can pass the other argument to the method
 # package imports
 import pandas as pd
+import csv
 import matplotlib.pyplot as plt
 import sys
 import os
@@ -19,8 +20,18 @@ message.remove(filename)
 
 # 1) Dataframe:
 # we can now pass the dataframe as input for the next methods, we start by retrieving the dataframe using pandas
-df = pd.read_pickle(message[0])
-# 'dataframe_example.pickle'
+try:
+    # we first try to read it using pickle
+    df = pd.read_pickle(message[0])
+
+except Exception as e:
+    try:
+        # if an exception is raised then we try it using the pandas csv reader
+        df = pd.read_csv(message[0])
+
+    # if an exception is still read then we return an error
+    except Exception as e:
+        print(e)
 
 
 # 2) Program Execution:
